@@ -1,0 +1,108 @@
+body{
+      background-color: black;
+}
+header{
+      /*background-color: #95a2a7 ;*/
+      width: 100% ;
+      height: 100px ;
+      border: solid ;
+}
+nav{
+      width: 98.5%;
+      height: 55px ;
+      border: solid rgb(201, 188, 188);
+      margin-top:-5px ;
+      position:fixed;
+      background-color:rgb(201, 188, 188);
+}
+li a{
+      text-decoration: none ;
+    color: black;
+    font-size: 25px;
+}
+li{
+      list-style-type: none ;
+      display: inline-block ;
+      padding-right: 20px ;
+      float:right;
+}
+li a:hover{
+      text-decoration: underline;	 
+}
+main{
+      width: 77% ;
+      height: 577px;
+      margin-top:58px ;
+      float: right ;
+      margin-left: 280px ;
+      border: solid 5px rgb(201, 188, 188);
+      position: absolute;
+}
+aside{
+      width: 20% ;
+      height: 583px ;
+      border: solid 2px white ;
+      margin-top:58px ;
+      float: left ;
+      position: fixed;
+}
+h1{
+     color: #292d31;
+     text-align: center;
+     font-size: 100px;
+     margin-top: -8px;
+     color: #13575b;
+     font-family: pristina;
+}
+h3{
+  text-align: center;
+}
+p {
+	text-align: left;
+	margin-right: 4px;
+	margin-left: 10px;
+	padding: 3px;
+	color: white;
+}
+img {
+      margin-left: 35px ;
+      margin-top: 20px ;
+      height: 200px ;
+      width: 200px ;
+      border-radius:50%;
+}
+.container img{
+  width: 100px;
+  height: 100px;
+  margin: 15px 15px;
+}
+
+#container-image{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  float: left;
+  text-align: center;
+  border: 2px solid black;
+  color: white;
+}
+
+.container img:hover{
+  transform: scale(1.2);
+}
+#g{
+  color: white;
+  font-size: 25px;
+}
+footer{
+  border: 2px solid black;
+  font-size: 40px;
+  font-family: Impact;
+  color: white;
+  text-align: center;
+}
+#logo{
+      margin-top:495px;
+      color:white;
+      text-align: center;
+}

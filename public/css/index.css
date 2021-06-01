@@ -1,0 +1,63 @@
+body {
+    background-color:white;
+}
+header{
+     width: 99% ;
+     height: 80px ;
+     border: solid white;
+     position:fixed;
+}
+nav{
+     width: 98.5%;
+     height: 55px ;
+     border: solid rgb(201, 188, 188);
+     margin-top:-5px ;
+     position:fixed;
+     background-color:rgb(201, 188, 188);
+}
+h1{
+     text-align: center ;
+     font-size: 60px ;
+     margin-top: 2px;
+     font-family: Impact;
+     color: black;
+     background-color: white;
+
+}
+li a{
+     text-decoration: none ;
+     color: black;
+     font-size: 25px;
+}
+li{
+     list-style-type: none ;
+     display: inline-block ;
+     padding-right: 20px ;
+     float:right;
+}
+li a:hover{
+ text-decoration: underline;	 
+}
+img{
+     margin-left: 400px ;
+     margin-top: 80px ;
+     height: 500px ;
+     width: 500px ;
+     border-radius:50%;
+}
+h2{
+ text-align: center;
+ color: black;
+ float:left;
+ margin-top:-2px;
+ margin-left:20px;
+ font-family: impact;
+ width:350;
+}
+#logo{
+    margin-top:65px;
+    color:black;
+    text-align: center;
+}
+
+ 
